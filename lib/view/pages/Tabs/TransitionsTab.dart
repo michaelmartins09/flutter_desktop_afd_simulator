@@ -79,7 +79,8 @@ class TransitionsTab extends StatelessWidget {
                             ),
                             Icon(FeatherIcons.chevronRight, size: 34)
                           ],
-                        )
+                        ),
+                        Text('Selecione acima a palavra de transição')
                       ],
                     ),
                   ),

@@ -6,5 +6,22 @@ class Transitions {
   final String word;
 
   Transitions({this.origin, this.destiny, this.word});
+
+  bool equalStart(State state){
+    return state.id == destiny.id;
+  }
+
+  bool equalFate(State state){
+    return state.id == destiny.id;
+  }
+
+  bool equals(Transitions toCompare){
+    if (toCompare.equalStart(origin)
+      && toCompare.equalFate(origin) &&
+      toCompare.word == word) {
+        return true;
+    }
+    return false;
+  }
   
 }
