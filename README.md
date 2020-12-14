@@ -76,7 +76,7 @@ Depois do merge, sua PR está pronta e você pode deletar sua branch..
 
 ## :memo: License
 
-Esse projeto tem a licença do MIT. Veja em [LICENSE](LICENSE.md) para mais detales.
+Esse projeto tem a licença do MIT. Veja em [LICENSE](https://github.com/michaelmartins09/flutter_desktop_afd_simulator/blob/main/LICENSE) para mais detales.
 
 ---
 
