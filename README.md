@@ -52,12 +52,35 @@ Toda interface foi elaborada e implementada pelos próprios autores deste projet
 ## 👷 Desenvolvimento
 #### Execute os passos abaixo para iniciar o desenvolvimento local:
 
-_Nota_: Para pular o passo 1 e 2 abaixo, basta fazer o download ZIP desse repositório no botão verde de cima ou aqui nesse [link](https://github.com/michaelmartins09/flutter_desktop_afd_simulator/archive/main.zip)
+_Nota_: Para pular o passo 2 e 3 abaixo, basta fazer o download ZIP desse repositório no botão verde de cima ou aqui nesse [link](https://github.com/michaelmartins09/flutter_desktop_afd_simulator/archive/main.zip)
 
-1. [Clone esse repositório](https://help.github.com/en/articles/cloning-a-repository) com git no terminal do SO com o comando `git clone https://github.com/micaelmartins09/flutter_desktop_afd_simulator.git`.
-2. Após o clone do repositório, abra o projeto clonado no **VS Code**.
-3. Instale as dependências executando o comando `flutter packages get` ou `flutter pub get` no terminal dentro do seu diretório do projeto (provavelmente `afd_system`).
-4. Após o projeto ficar todo carregado, execute o comando `flutter run` ou aperte F5 (modo debug) para executar o app desktop.
+1. Siga os passos de instalação do Framework Flutter clicando [aqui](https://flutter.dev/docs/get-started/install).
+2. [Clone esse repositório](https://help.github.com/en/articles/cloning-a-repository) com git no terminal do SO com o comando `git clone https://github.com/micaelmartins09/flutter_desktop_afd_simulator.git`.
+3. Após o clone do repositório, abra o projeto clonado no **VS Code**.
+4. Instale as dependências executando o comando `flutter packages get` ou `flutter pub get` no terminal dentro do seu diretório do projeto (provavelmente `afd_system`).
+5. Após o projeto ficar todo carregado, execute o comando `flutter run` ou aperte F5 (modo debug) para executar o app desktop.
+
+### 💻 Como usar
+
+#### 1. Insira o alfabeto
+<p align="left">
+    <img src="screenshots/tela_transicoes.png" width="40%">
+</p>
+
+#### 2. Insira os estados do automato
+<p align="left">
+    <img src="screenshots/tela_estados.png" width="40%">
+</p>
+
+#### 3. Insira as transições do automato
+<p align="left">
+    <img src="screenshots/tela_transicoes.png" width="40%">
+</p>
+
+#### 4. Toque em testar automato, insira a palavra de teste e seu resultado será apresentado
+<p align="left">
+    <img src="screenshots/tela_teste.png" width="40%">
+</p>
 
 ## 💻 Compilação
 
